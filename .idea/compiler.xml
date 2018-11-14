@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="stream-hello" />
+        <module name="stream-hello-copy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="stream-hello" target="1.8" />
+      <module name="stream-hello-copy" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

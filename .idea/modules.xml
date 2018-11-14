@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/stream-hello/stream-hello.iml" filepath="$PROJECT_DIR$/stream-hello/stream-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-hello-copy/stream-hello (1).iml" filepath="$PROJECT_DIR$/stream-hello-copy/stream-hello (1).iml" />
     </modules>
   </component>
 </project>

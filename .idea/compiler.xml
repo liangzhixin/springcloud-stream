@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="stream-hello" />
-        <module name="stream-hello-copy" />
+        <module name="stream-receiver" />
+        <module name="stream-sender" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="stream-hello" target="1.8" />
-      <module name="stream-hello-copy" target="1.8" />
+      <module name="stream-hello-sender" target="1.8" />
+      <module name="stream-receiver" target="1.8" />
+      <module name="stream-sender" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

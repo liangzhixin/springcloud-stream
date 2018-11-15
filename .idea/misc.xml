@@ -4,7 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/stream-hello/pom.xml" />
-        <option value="$PROJECT_DIR$/stream-hello-copy/pom.xml" />
+        <option value="$PROJECT_DIR$/stream-sender/pom.xml" />
+        <option value="$PROJECT_DIR$/stream-receiver/pom.xml" />
       </list>
     </option>
   </component>

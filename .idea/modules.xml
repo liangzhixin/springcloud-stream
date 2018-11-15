@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/stream-hello/stream-hello.iml" filepath="$PROJECT_DIR$/stream-hello/stream-hello.iml" />
-      <module fileurl="file://$PROJECT_DIR$/stream-hello-copy/stream-hello-copy.iml" filepath="$PROJECT_DIR$/stream-hello-copy/stream-hello-copy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-receiver/stream-receiver.iml" filepath="$PROJECT_DIR$/stream-receiver/stream-receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-sender/stream-sender.iml" filepath="$PROJECT_DIR$/stream-sender/stream-sender.iml" />
     </modules>
   </component>
 </project>

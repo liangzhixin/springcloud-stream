@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7193ec4-feac-464d-a635-4eb1843ab408" name="Default" comment="" />
+    <list default="true" id="a7193ec4-feac-464d-a635-4eb1843ab408" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/channel/HelloChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/custom/HelloInputChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/receiver/HelloChannelReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/custom/HelloChannelReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-receiver/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stream-receiver/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/channel/HelloChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/custom/HelloOutputChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/sender/HelloChannelSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/custom/HelloChannelSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-sender/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stream-sender/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/stream-hello/target/" />
     <ignored path="$PROJECT_DIR$/stream-hello-copy/target/" />
     <ignored path="$PROJECT_DIR$/stream-sender/target/" />
@@ -15,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="HelloChannelSender.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/sender/HelloChannelSender.java">
+      <file leaf-file-name="ProcessorSender.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/processor/ProcessorSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="342">
+              <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,14 +36,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloChannel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/channel/HelloChannel.java">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="266">
+                <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloOutputChannel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/custom/HelloOutputChannel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloChannelSender.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/custom/HelloChannelSender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreamHelloApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/StreamHelloApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloInputChannel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/custom/HelloInputChannel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloChannelReceiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/custom/HelloChannelReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -42,32 +96,26 @@
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stream-sender/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="171">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamHelloApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/StreamHelloApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="HelloChannelReceiver.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/receiver/HelloChannelReceiver.java">
+      <file leaf-file-name="ProcessorReceiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/processor/ProcessorReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="114">
+              <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,6 +136,7 @@
       <find>stream-hello</find>
       <find>output</find>
       <find>channel</find>
+      <find>HI</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,10 +146,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/stream-hello/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/stream-hello-copy/src/main/java/com/example/streamhello/receiver/SinkReceiver.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/stream-hello-copy/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/receiver/SinkReceiverCopy.java" />
         <option value="$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/sender/SinkSender.java" />
@@ -118,19 +164,39 @@
         <option value="$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/receiver/InputChannelReceiver.java" />
         <option value="$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/sender/SourceSender.java" />
         <option value="$PROJECT_DIR$/stream-hello-copy/pom.xml" />
-        <option value="$PROJECT_DIR$/stream-receiver/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/stream-sender/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/channel/SourceInput.java" />
-        <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/receiver/SourceReceiver.java" />
         <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/channel/HelloChannel.java" />
         <option value="$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/channel/HelloChannel.java" />
         <option value="$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/channel/ProcessorChannel.java" />
-        <option value="$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/sender/HelloChannelSender.java" />
-        <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/receiver/HelloChannelReceiver.java" />
         <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/channel/MySink.java" />
         <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/channel/MySource.java" />
         <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/receiver/MySinkReceiver.java" />
         <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/receiver/MySourceSender.java" />
+        <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/channel/SourceChannel.java" />
+        <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/receiver/SourceReceiver.java" />
+        <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/channel/HelloInputChannel.java" />
+        <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/source/SourceChannel.java" />
+        <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/receiver/HelloChannelReceiver.java" />
+        <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/sink/SinkChannel.java" />
+        <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/sink/SinkSender.java" />
+        <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/sink/SinkReceiver2.java" />
+        <option value="$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/sender/HelloChannelSender.java" />
+        <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/source/SourceReceiver.java" />
+        <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/source/SourceSender.java" />
+        <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/processor/PorcessorReceiver.java" />
+        <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/sink/SinkReceiver.java" />
+        <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/processor/HelloChannelReceiver.java" />
+        <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/processor/HelloInputChannel.java" />
+        <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/processor/HelloChannelReceiver2.java" />
+        <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/processor/ProcessorReceiver.java" />
+        <option value="$PROJECT_DIR$/stream-receiver/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/stream-sender/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/processor/ProcessorSender.java" />
+        <option value="$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/custom/HelloOutputChannel2.java" />
+        <option value="$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/custom/HelloChannelReceiver2.java" />
+        <option value="$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/custom/HelloOutputChannel.java" />
+        <option value="$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/custom/HelloChannelSender.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -223,16 +289,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="streamhello" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-receiver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="streamhello" type="462c0819:PsiDirectoryNode" />
-              <item name="receiver" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
@@ -240,66 +297,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-receiver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-sender" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-sender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-sender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-sender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-sender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="streamhello" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-sender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="streamhello" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-sender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="streamhello" type="462c0819:PsiDirectoryNode" />
-              <item name="sender" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-sender" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,8 +321,14 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.streamhello.custom" />
+      <recent name="com.example.streamhello.processor" />
+      <recent name="com.example.streamhello.sink" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\idea workspace\springcloud-stream" />
+      <recent name="F:\idea workspace\springcloud-stream\stream-receiver" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -474,45 +477,73 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29981000" />
+    <option name="totallyTimeSpent" value="38094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007225" side_tool="true" weight="0.61911356" />
-      <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="26" sideWeight="0.5007225" weight="0.61911356" />
+      <window_info anchor="bottom" id="JRebel Console" order="10" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32947975" />
-      <window_info anchor="bottom" id="JRebel Executor" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.50108933" side_tool="true" weight="0.25939307" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32918397" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32918397" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49927744" weight="0.5020747" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.68049794" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2601156" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49927744" weight="0.7482711" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Spring" order="15" />
+      <window_info anchor="bottom" id="Terminal" order="16" weight="0.52558786" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.25939307" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49927744" weight="0.5020747" />
+      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.5007225" side_tool="true" weight="0.61911356" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2601156" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="18" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="19" visible="true" weight="0.68049794" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="JRebel Executor" order="20" />
+      <window_info anchor="bottom" id="Database Changes" order="21" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="22" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="JRebel Console" order="23" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="24" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="25" weight="0.32918397" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32947975" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Designer" order="2" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,65 +558,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stream-hello/src/test/java/com/example/streamhello/SinkTest.java" />
-    <entry file="file://$PROJECT_DIR$/stream-hello/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/2.0.1.RELEASE/spring-cloud-stream-2.0.1.RELEASE.jar!/org/springframework/cloud/stream/annotation/Input.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.6.RELEASE/spring-boot-starter-parent-2.0.6.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-hello/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-545">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.6.RELEASE/spring-boot-autoconfigure-2.0.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-hello-copy/src/test/java/com/example/streamhello/SinkTest.java" />
-    <entry file="file://$PROJECT_DIR$/stream-hello-copy/src/main/java/com/example/streamhello/StreamHelloApplication.java" />
-    <entry file="file://$PROJECT_DIR$/stream-hello-copy/src/main/java/com/example/streamhello/receiver/SinkReceiver.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/2.0.1.RELEASE/spring-cloud-stream-2.0.1.RELEASE.jar!/org/springframework/cloud/stream/config/BindingProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-hello/src/test/java/com/example/streamhello/StreamHelloApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/receiver/SinkReceiverCopy.java" />
-    <entry file="file://$PROJECT_DIR$/stream-hello-copy/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/sender/SinkSender.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/2.0.1.RELEASE/spring-cloud-stream-2.0.1.RELEASE.jar!/org/springframework/cloud/stream/annotation/EnableBinding.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/sender/MySinkSender.java" />
     <entry file="file://$PROJECT_DIR$/stream-hello/src/test/java/com/example/streamhello/SinkTest.java" />
     <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/channel/MySink.java" />
@@ -594,98 +566,16 @@
     <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/channel/MySource.java" />
     <entry file="file://$PROJECT_DIR$/stream-hello/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/StreamHelloApplication.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/2.0.1.RELEASE/spring-cloud-stream-2.0.1.RELEASE.jar!/org/springframework/cloud/stream/messaging/Source.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/receiver/SinkReceiver.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/2.0.1.RELEASE/spring-cloud-stream-2.0.1.RELEASE.jar!/org/springframework/cloud/stream/messaging/Sink.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/channel/InputChannel.java" />
     <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/receiver/InputChannelReceiver.java" />
     <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/sender/SourceSender.java" />
     <entry file="file://$PROJECT_DIR$/stream-hello-copy/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="171">
-            <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/sender/SourceSender.java" />
     <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/receiver/SinkReceiver.java" />
     <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/channel/SourceInput.java" />
-    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/receiver/SourceReceiver.java" />
-    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stream-receiver/src/test/java/com/example/streamhello/SinkTest.java" />
-    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/channel/HelloChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/StreamHelloApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-sender/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/channel/HelloChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/channel/ProcessorChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/sender/HelloChannelSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/channel/ProcessorChannel.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/2.0.1.RELEASE/spring-cloud-stream-2.0.1.RELEASE.jar!/org/springframework/cloud/stream/messaging/Processor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -693,56 +583,229 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/receiver/MySinkReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/receiver/MySourceSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/channel/MySink.java">
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/receiver/MySinkReceiver.java" />
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/receiver/MySourceSender.java" />
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/channel/MySink.java" />
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/channel/MySource.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/2.0.1.RELEASE/spring-cloud-stream-2.0.1.RELEASE.jar!/org/springframework/cloud/stream/messaging/Source.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="29" />
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/StreamHelloApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/2.0.1.RELEASE/spring-cloud-stream-2.0.1.RELEASE.jar!/org/springframework/cloud/stream/messaging/Sink.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/integration/spring-integration-core/5.0.9.RELEASE/spring-integration-core-5.0.9.RELEASE.jar!/org/springframework/integration/config/EnableIntegration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/2.0.1.RELEASE/spring-cloud-stream-2.0.1.RELEASE.jar!/org/springframework/cloud/stream/annotation/EnableBinding.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/source/SourceChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/channel/MySource.java">
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/sink/SinkReceiver2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/sink/SinkChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/source/SourceReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/receiver/HelloChannelReceiver.java">
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/source/SourceSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="95">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/sink/SinkReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/sink/SinkSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/processor/HelloInputChannel2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/processor/HelloChannelReceiver2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-sender/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/processor/ProcessorReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/processor/ProcessorSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/custom/HelloChannelReceiver2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/custom/HelloOutputChannel2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/StreamHelloApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/custom/HelloInputChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/custom/HelloChannelReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/custom/HelloOutputChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/custom/HelloChannelSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-sender/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="266">
+            <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

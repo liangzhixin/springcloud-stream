@@ -1,12 +1,12 @@
-package com.example.streamhello.channel;
+package com.example.streamhello.sink;
 
 import org.springframework.cloud.stream.annotation.Output;
 import org.springframework.messaging.MessageChannel;
 
-public interface HelloChannel {
+public interface SinkChannel {
 
-    String CHANNEL = "hello";
+    String OUTPUT = "sink";
 
-    @Output(HelloChannel.CHANNEL)
+    @Output(OUTPUT)
     MessageChannel output();
 }

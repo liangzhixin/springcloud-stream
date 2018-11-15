@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/stream-group-receiver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stream-group-receiver-copy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-partition-receiver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-partition-receiver-copy" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stream-receiver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stream-sender" charset="UTF-8" />
   </component>

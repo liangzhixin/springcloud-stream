@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="stream-group-receiver" />
         <module name="stream-group-receiver-copy" />
+        <module name="stream-partition-receiver" />
+        <module name="stream-partition-receiver-copy" />
         <module name="stream-receiver" />
         <module name="stream-sender" />
       </profile>
@@ -17,6 +19,8 @@
       <module name="stream-group-receiver-copy" target="1.8" />
       <module name="stream-hello" target="1.8" />
       <module name="stream-hello-sender" target="1.8" />
+      <module name="stream-partition-receiver" target="1.8" />
+      <module name="stream-partition-receiver-copy" target="1.8" />
       <module name="stream-receiver" target="1.8" />
       <module name="stream-sender" target="1.8" />
     </bytecodeTargetLevel>

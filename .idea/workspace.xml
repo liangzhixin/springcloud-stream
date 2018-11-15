@@ -7,20 +7,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-receiver-copy/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-receiver-copy/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-receiver-copy/src/main/java/com/example/streamhello/StreamHelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-receiver-copy/src/main/java/com/example/streamhello/channel/HelloInputChannel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-receiver-copy/src/main/java/com/example/streamhello/receiver/HelloChannelReceiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-receiver-copy/src/main/java/com/example/streamhello/sink/SinkChannel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-receiver-copy/src/main/java/com/example/streamhello/sink/SinkReceiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-receiver-copy/src/main/java/com/example/streamhello/sink/SinkSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-receiver-copy/src/main/java/com/example/streamhello/source/SourceChannel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-receiver-copy/src/main/java/com/example/streamhello/source/SourceReceiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-receiver-copy/src/main/java/com/example/streamhello/source/SourceSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-receiver-copy/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-receiver-copy/src/test/java/com/example/streamhello/StreamHelloApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/custom/HelloChannelSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/custom/HelloChannelSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-receiver/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stream-receiver/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-sender/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stream-sender/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/stream-hello/target/" />
     <ignored path="$PROJECT_DIR$/stream-hello-copy/target/" />
@@ -28,6 +16,8 @@
     <ignored path="$PROJECT_DIR$/stream-receiver/target/" />
     <ignored path="$PROJECT_DIR$/stream-group-receiver/target/" />
     <ignored path="$PROJECT_DIR$/stream-group-receiver-copy/target/" />
+    <ignored path="$PROJECT_DIR$/stream-partition-receiver/target/" />
+    <ignored path="$PROJECT_DIR$/stream-partition-receiver-copy/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,92 +30,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="95">
-                <caret line="5" selection-start-line="5" selection-end-line="5" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream-group-receiver/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloInputChannel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream-group-receiver/src/main/java/com/example/streamgroupreceiver/custom/HelloInputChannel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HelloChannelReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream-group-receiver/src/main/java/com/example/streamgroupreceiver/custom/HelloChannelReceiver.java">
+        <entry file="file://$PROJECT_DIR$/stream-partition-receiver/src/main/java/com/example/streamgroupreceiver/custom/HelloChannelReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="HelloInputChannel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream-sender/stream-group-receiver-copy/src/main/java/com/example/streamgroupreceiver/custom/HelloInputChannel.java">
+        <entry file="file://$PROJECT_DIR$/stream-partition-receiver/src/main/java/com/example/streamgroupreceiver/custom/HelloInputChannel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="76">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloInputChannel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream-group-receiver-copy/src/main/java/com/example/streamgroupreceiver/custom/HelloInputChannel.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="StreamGroupReceiverApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream-partition-receiver/src/main/java/com/example/streamgroupreceiver/StreamGroupReceiverApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream-group-receiver-copy/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/stream-partition-receiver/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+            <state relative-caret-position="46">
+              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloOutputChannel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/custom/HelloOutputChannel.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream-partition-receiver-copy/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="65">
+              <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloChannelSender.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/custom/HelloChannelSender.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stream-sender/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="230">
+              <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -147,6 +101,7 @@
       <find>channel</find>
       <find>HI</find>
       <find>1001</find>
+      <find>1005</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,8 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/stream-hello/src/test/java/com/example/streamhello/SinkTest.java" />
-        <option value="$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/sender/MySinkSender.java" />
         <option value="$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/sender/MySourceSender.java" />
         <option value="$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/channel/MySink.java" />
         <option value="$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/channel/MySource.java" />
@@ -194,8 +147,6 @@
         <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/processor/HelloInputChannel.java" />
         <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/processor/HelloChannelReceiver2.java" />
         <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/processor/ProcessorReceiver.java" />
-        <option value="$PROJECT_DIR$/stream-receiver/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/stream-sender/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/processor/ProcessorSender.java" />
         <option value="$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/custom/HelloOutputChannel2.java" />
         <option value="$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/custom/HelloChannelReceiver2.java" />
@@ -207,6 +158,10 @@
         <option value="$PROJECT_DIR$/stream-group-receiver/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/stream-group-receiver-copy/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/custom/HelloChannelSender.java" />
+        <option value="$PROJECT_DIR$/stream-receiver/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/stream-partition-receiver/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/stream-partition-receiver-copy/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/stream-sender/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -267,29 +222,29 @@
           <expand>
             <path>
               <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-group-receiver" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-partition-receiver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-group-receiver" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-partition-receiver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-group-receiver" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-partition-receiver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-group-receiver" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-partition-receiver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-group-receiver" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-partition-receiver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -297,7 +252,7 @@
             </path>
             <path>
               <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-group-receiver" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-partition-receiver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -306,53 +261,44 @@
             </path>
             <path>
               <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-group-receiver" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-partition-receiver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-group-receiver-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-partition-receiver-copy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-group-receiver-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-partition-receiver-copy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-group-receiver-copy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-group-receiver-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-partition-receiver-copy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-group-receiver-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-partition-receiver-copy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="streamgroupreceiver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-group-receiver-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-partition-receiver-copy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="streamgroupreceiver" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-group-receiver-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-partition-receiver-copy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -392,9 +338,7 @@
               <item name="stream-sender" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="streamhello" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -410,7 +354,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/stream-group-receiver-copy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/stream-partition-receiver-copy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -487,6 +431,28 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.streamgroupreceiver.StreamGroupReceiverApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
+    <configuration name="partition-receiver-copy" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="stream-partition-receiver-copy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.streamgroupreceiver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.streamgroupreceiver.StreamGroupReceiverApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="partition-receiver" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="stream-partition-receiver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.streamgroupreceiver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.streamgroupreceiver.StreamGroupReceiverApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
     <configuration name="receive" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="stream-receiver" />
       <extension name="coverage">
@@ -533,12 +499,16 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.StreamGroupReceiverApplication" />
-      <item itemvalue="Spring Boot.receive" />
       <item itemvalue="Spring Boot.sender" />
+      <item itemvalue="Spring Boot.receive" />
       <item itemvalue="Spring Boot.StreamGroupReceiverCopyApplication" />
+      <item itemvalue="Spring Boot.partition-receiver" />
+      <item itemvalue="Spring Boot.partition-receiver-copy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.partition-receiver-copy" />
+        <item itemvalue="Spring Boot.partition-receiver" />
         <item itemvalue="Spring Boot.sender" />
         <item itemvalue="Spring Boot.StreamGroupReceiverCopyApplication" />
         <item itemvalue="Spring Boot.receive" />
@@ -594,7 +564,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40063000" />
+    <option name="totallyTimeSpent" value="44277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -609,20 +579,20 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.50108933" side_tool="true" weight="0.25939307" />
+      <window_info id="Structure" order="1" sideWeight="0.5011442" side_tool="true" weight="0.25939307" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39972338" />
       <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32918397" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="26" sideWeight="0.49927744" weight="0.37067774" />
+      <window_info active="true" anchor="bottom" id="Run" order="26" sideWeight="0.49927744" visible="true" weight="0.5172891" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Spring" order="15" />
-      <window_info anchor="bottom" id="Terminal" order="16" weight="0.52558786" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.25939307" />
+      <window_info anchor="bottom" id="Terminal" order="16" weight="0.69156295" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49885583" visible="true" weight="0.25939307" />
       <window_info anchor="bottom" id="Problems" order="0" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="JRebel" order="2" side_tool="true" />
@@ -712,15 +682,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/channel/InputChannel.java" />
-    <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/receiver/InputChannelReceiver.java" />
-    <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/com/example/streamhello/sender/SourceSender.java" />
-    <entry file="file://$PROJECT_DIR$/stream-hello-copy/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/sender/SourceSender.java" />
-    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/receiver/SinkReceiver.java" />
-    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/java/com/example/streamhello/channel/SourceInput.java" />
-    <entry file="file://$PROJECT_DIR$/stream-receiver/src/test/java/com/example/streamhello/SinkTest.java" />
-    <entry file="file://$PROJECT_DIR$/stream-sender/src/main/java/com/example/streamhello/channel/ProcessorChannel.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/2.0.1.RELEASE/spring-cloud-stream-2.0.1.RELEASE.jar!/org/springframework/cloud/stream/messaging/Processor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -845,13 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -912,13 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stream-sender/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -1001,13 +948,6 @@
     <entry file="file://$PROJECT_DIR$/stream-group-receiver-copy/src/main/java/com/example/streamgroupreceiver/custom/HelloInputChannel.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream-group-receiver/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stream-group-receiver-copy/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1026,6 +966,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-group-receiver/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-partition-receiver/src/main/java/com/example/streamgroupreceiver/StreamGroupReceiverApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-partition-receiver/src/main/java/com/example/streamgroupreceiver/custom/HelloInputChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-partition-receiver/src/main/java/com/example/streamgroupreceiver/custom/HelloChannelReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.9.7/jackson-core-2.9.7-sources.jar!/com/fasterxml/jackson/core/JsonGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="938" column="28" lean-forward="true" selection-start-line="938" selection-start-column="28" selection-end-line="938" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-stream/2.0.1.RELEASE/spring-cloud-stream-2.0.1.RELEASE.jar!/org/springframework/cloud/stream/binder/ProducerProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="170" column="31" selection-start-line="170" selection-start-column="31" selection-end-line="170" selection-end-column="31" />
+          <folding>
+            <element signature="e#1675#1676#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-partition-receiver-copy/src/main/java/com/example/streamgroupreceiver/custom/HelloInputChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-receiver/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-partition-receiver-copy/src/main/java/com/example/streamgroupreceiver/StreamGroupReceiverApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-partition-receiver/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-partition-receiver-copy/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-sender/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -1081,7 +1109,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>stream-group-receiver-copy</last-edited>
+          <last-edited>stream-partition-receiver-copy</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

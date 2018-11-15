@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/stream-group-receiver/stream-group-receiver.iml" filepath="$PROJECT_DIR$/stream-group-receiver/stream-group-receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-group-receiver-copy/stream-group-receiver-copy.iml" filepath="$PROJECT_DIR$/stream-group-receiver-copy/stream-group-receiver-copy.iml" />
       <module fileurl="file://$PROJECT_DIR$/stream-receiver/stream-receiver.iml" filepath="$PROJECT_DIR$/stream-receiver/stream-receiver.iml" />
       <module fileurl="file://$PROJECT_DIR$/stream-sender/stream-sender.iml" filepath="$PROJECT_DIR$/stream-sender/stream-sender.iml" />
     </modules>

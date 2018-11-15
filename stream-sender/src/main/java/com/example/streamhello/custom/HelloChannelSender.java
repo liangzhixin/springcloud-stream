@@ -15,7 +15,7 @@ public class HelloChannelSender {
     @Resource
     private MessageChannel hello;
 
-    @Scheduled(cron = "0/1 * * * * ?")
+    @Scheduled(cron = "0/5 * * * * ?")
     public void send(){
         String msg = "hello world!";
         hello.send(MessageBuilder.withPayload(msg).build());

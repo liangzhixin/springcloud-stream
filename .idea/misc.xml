@@ -6,6 +6,8 @@
         <option value="$PROJECT_DIR$/stream-hello/pom.xml" />
         <option value="$PROJECT_DIR$/stream-sender/pom.xml" />
         <option value="$PROJECT_DIR$/stream-receiver/pom.xml" />
+        <option value="$PROJECT_DIR$/stream-group-receiver/pom.xml" />
+        <option value="$PROJECT_DIR$/stream-group-receiver-copy/pom.xml" />
       </list>
     </option>
   </component>
